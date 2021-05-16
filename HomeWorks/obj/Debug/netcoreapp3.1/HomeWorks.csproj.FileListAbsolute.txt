@@ -1,0 +1,13 @@
+D:\Unity\edu\chsarp\iJunior\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.csprojAssemblyReference.cache
+D:\Unity\edu\chsarp\iJunior\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.AssemblyInfoInputs.cache
+D:\Unity\edu\chsarp\iJunior\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.AssemblyInfo.cs
+D:\Unity\edu\chsarp\iJunior\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.csproj.CoreCompileInputs.cache
+D:\Unity\edu\chsarp\iJunior\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.exe
+D:\Unity\edu\chsarp\iJunior\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.deps.json
+D:\Unity\edu\chsarp\iJunior\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.runtimeconfig.json
+D:\Unity\edu\chsarp\iJunior\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.runtimeconfig.dev.json
+D:\Unity\edu\chsarp\iJunior\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.dll
+D:\Unity\edu\chsarp\iJunior\HomeWorks\bin\Debug\netcoreapp3.1\HomeWorks.pdb
+D:\Unity\edu\chsarp\iJunior\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.dll
+D:\Unity\edu\chsarp\iJunior\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.pdb
+D:\Unity\edu\chsarp\iJunior\HomeWorks\obj\Debug\netcoreapp3.1\HomeWorks.genruntimeconfig.cache
