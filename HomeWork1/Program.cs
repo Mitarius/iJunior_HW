@@ -12,6 +12,7 @@ namespace ConsoleApp1
             int fullRowCount = imageCount / rowSize;
             int remainingImages = imageCount % rowSize;
 
+
             Console.WriteLine($"Заполненных рядов: {fullRowCount}, остаток: {remainingImages}");
             Console.ReadKey();
         }
