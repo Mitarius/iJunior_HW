@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWorks", "HomeWorks.csproj", "{23C432B0-ED06-4763-A358-1F4DE8A96610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWorks", "HomeWorks.csproj", "{23C432B0-ED06-4763-A358-1F4DE8A96610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork1", "..\HomeWork1\HomeWork1.csproj", "{B639DCBB-963E-4711-8C0F-99512BEBDE43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork1", "..\HomeWork1\HomeWork1.csproj", "{B639DCBB-963E-4711-8C0F-99512BEBDE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork2", "..\HomeWork2\HomeWork2.csproj", "{661C400A-5ACC-48CA-97CB-77C8630B296E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork3", "..\HomeWork3\HomeWork3.csproj", "{2AF6FC25-B76C-4798-9136-0AE861177B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork4", "..\HomeWork4\HomeWork4.csproj", "{9763E3AD-113D-403B-A1E3-928A46DF4DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{B639DCBB-963E-4711-8C0F-99512BEBDE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B639DCBB-963E-4711-8C0F-99512BEBDE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B639DCBB-963E-4711-8C0F-99512BEBDE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661C400A-5ACC-48CA-97CB-77C8630B296E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661C400A-5ACC-48CA-97CB-77C8630B296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661C400A-5ACC-48CA-97CB-77C8630B296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661C400A-5ACC-48CA-97CB-77C8630B296E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF6FC25-B76C-4798-9136-0AE861177B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF6FC25-B76C-4798-9136-0AE861177B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF6FC25-B76C-4798-9136-0AE861177B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF6FC25-B76C-4798-9136-0AE861177B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9763E3AD-113D-403B-A1E3-928A46DF4DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9763E3AD-113D-403B-A1E3-928A46DF4DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9763E3AD-113D-403B-A1E3-928A46DF4DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9763E3AD-113D-403B-A1E3-928A46DF4DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
