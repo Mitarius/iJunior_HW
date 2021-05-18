@@ -10,12 +10,16 @@ namespace HomeWork3
 
             int queueLength;
             int minutesPerPerson = 10;
+            int estimatedTotalWaitingMinutes;
+            int estimatedWaitingHours;
             int estimatedWaitingMinutes;
 
             Console.Write("Введите кол-во старушек: ");
             queueLength = Convert.ToInt32(Console.ReadLine());
-            estimatedWaitingMinutes = queueLength * minutesPerPerson; 
-            Console.WriteLine("Вы должны отстоять в очереди " + estimatedWaitingMinutes / 60 +  " часа и " + estimatedWaitingMinutes % 60 + " минут.");
+            estimatedTotalWaitingMinutes = queueLength * minutesPerPerson;
+            estimatedWaitingHours = estimatedTotalWaitingMinutes / 60;
+            estimatedWaitingMinutes = estimatedTotalWaitingMinutes % 60;
+            Console.WriteLine("Вы должны отстоять в очереди " + estimatedWaitingHours +  " часа и " + estimatedWaitingMinutes + " минут.");
         }
     }
 }
