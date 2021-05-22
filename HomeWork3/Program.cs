@@ -7,7 +7,7 @@ namespace HomeWork3
         static void Main(string[] args)
         {
             //Домашняя работа "Поликлиника"
-
+            
             int queueLength;
             int minutesPerPerson = 10;
             int estimatedTotalWaitingMinutes;
