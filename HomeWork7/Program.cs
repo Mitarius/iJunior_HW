@@ -20,7 +20,7 @@ namespace HomeWork7
             Console.WriteLine("Введите число повторений:");
             repeatCount = Convert.ToInt32(Console.ReadLine());
 
-            while (repeatCount > 0)
+            for (int i = 0; i < repeatCount; i++)
             {
                 Console.WriteLine(message);
                 repeatCount--;
