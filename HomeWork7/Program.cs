@@ -23,7 +23,6 @@ namespace HomeWork7
             for (int i = 0; i < repeatCount; i++)
             {
                 Console.WriteLine(message);
-                repeatCount--;
             }
         }
     }
