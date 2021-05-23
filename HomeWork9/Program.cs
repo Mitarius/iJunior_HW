@@ -129,7 +129,6 @@ namespace HomeWork9
                         break;
                 }
             }
-            Console.WriteLine("");
         }
     }
 }
