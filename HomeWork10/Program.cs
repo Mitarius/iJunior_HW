@@ -13,9 +13,9 @@ namespace HomeWork10
             int screenFlashCount = 10;
             int screenFlashPauseTimeMs = 100;
             int actionPauseTime = 1000;
-            int commentShitCount = 11;
-            int commentActualShitCount = commentShitCount;
-            int commentShitDispersion = 10;
+            int commentPonyCount = 11;
+            int commentActualPonyCount = commentPonyCount;
+            int commentPonyDispersion = 10;
             string userCommand = "";
             string newPassword = "";
             bool pentagonIsHacked = false;
@@ -33,7 +33,7 @@ namespace HomeWork10
                 Console.WriteLine("Выбери команду и смотри не запались");
                 Console.WriteLine("1: Поменять рут паролиь на глвном сервере \"петнагона\"");
                 Console.WriteLine("2: Узнать кто убил Кеннеди ");
-                Console.WriteLine("3: Насрать в коментах");
+                Console.WriteLine("3: Раздать розовых поней в комментах");
                 Console.WriteLine("4: Удалить логи");
                 Console.WriteLine("Exit: Выход из системы");
 
@@ -90,16 +90,16 @@ namespace HomeWork10
                             Thread.Sleep(actionPauseTime);
                             Console.WriteLine("БОЛЬШНЕ БОТОВ...");
                             Thread.Sleep(actionPauseTime);
-                            Console.WriteLine("Рандомизируем говно...");
+                            Console.WriteLine("Рандомизируем пони...");
                             Thread.Sleep(actionPauseTime);
-                            commentActualShitCount += rand.Next( -commentShitDispersion, commentShitDispersion);
+                            commentActualPonyCount += rand.Next( -commentPonyDispersion, commentPonyDispersion);
 
-                            for (int i = 0; i < commentActualShitCount; i++) 
+                            for (int i = 0; i < commentActualPonyCount; i++) 
                             {
-                                Console.WriteLine("This is boolshit!!!!");
+                                Console.WriteLine($"Дружба это чудо {i}!!!");
                             }
 
-                            commentActualShitCount = commentShitCount;
+                            commentActualPonyCount = commentPonyCount;
                         break;
 
                     case "4":
