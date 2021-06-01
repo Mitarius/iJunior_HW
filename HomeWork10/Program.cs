@@ -12,9 +12,9 @@ namespace HomeWork10
         {
             int screenFlashCount = 10;
             int screenFlashPauseTimeMs = 100;
-            int actionPauseMs = 1000;
-            int commentTargetShitCount = 11;
-            int commentTargetActualShitCount = commentTargetShitCount;
+            int actionPauseTime = 1000;
+            int commentShitCount = 11;
+            int commentActualShitCount = commentShitCount;
             int commentShitDispersion = 10;
             string userCommand = "";
             string newPassword = "";
@@ -23,7 +23,6 @@ namespace HomeWork10
             int remainigAttemps = loginAttempts;
             string userInput;
             Random rand = new Random();
-
 
             while (userCommand != "Exit")
             {
@@ -43,12 +42,11 @@ namespace HomeWork10
                 switch (userCommand)
                 {
                     case "1":
-                        {
                             Console.Write("Введи новый дурацкий пароль:");
                             newPassword = Console.ReadLine();
                             Console.WriteLine("Подключаюсь к серверу...");
-                            Thread.Sleep(actionPauseMs);
-      
+                            Thread.Sleep(actionPauseTime);
+
                             for (int i = 0; i < screenFlashCount; i++) {
                                 Console.BackgroundColor = ConsoleColor.Red;
                                 Console.Clear();
@@ -56,21 +54,18 @@ namespace HomeWork10
                                 Console.BackgroundColor = ConsoleColor.Black;
                                 Console.Clear();
                             }
-                            
+
                             Console.WriteLine("Соединение установлено...");
-                            Thread.Sleep(actionPauseMs);
+                            Thread.Sleep(actionPauseTime);
                             Console.WriteLine("Меняю пароль...");
-                            Thread.Sleep(actionPauseMs);
+                            Thread.Sleep(actionPauseTime);
                             Console.WriteLine($"Новый пароль: {newPassword}");
                             pentagonIsHacked = true;
-
-                        }                
                         break;
 
                     case "2":
-                        {
                             Console.WriteLine("Подключаюсь к серверу ФБР...");
-                            Thread.Sleep(actionPauseMs);
+                            Thread.Sleep(actionPauseTime);
 
                             for (int i = 0; i < loginAttempts; i++)
                             {
@@ -88,32 +83,30 @@ namespace HomeWork10
                                     Console.WriteLine("Incorrect passoword, this incedent will be reported, and you will not get a very secret message for this time.");
                                 }
                             }
-                        }
                         break;
 
                     case "3":
-                        {
                             Console.WriteLine("Подсоединяем бота...");
-                            Thread.Sleep(actionPauseMs);
+                            Thread.Sleep(actionPauseTime);
                             Console.WriteLine("БОЛЬШНЕ БОТОВ...");
-                            Thread.Sleep(actionPauseMs);
+                            Thread.Sleep(actionPauseTime);
                             Console.WriteLine("Рандомизируем говно...");
-                            Thread.Sleep(actionPauseMs);
-                            commentTargetActualShitCount += rand.Next( -commentShitDispersion, commentShitDispersion);
-                            for (int i = 0; i < commentTargetActualShitCount; i++) 
+                            Thread.Sleep(actionPauseTime);
+                            commentActualShitCount += rand.Next( -commentShitDispersion, commentShitDispersion);
+
+                            for (int i = 0; i < commentActualShitCount; i++) 
                             {
                                 Console.WriteLine("This is boolshit!!!!");
                             }
-                            commentTargetActualShitCount = commentTargetShitCount;
-                        }
+
+                            commentActualShitCount = commentShitCount;
                         break;
 
                     case "4":
-                        {
                             Console.WriteLine("Заметаем следы:");
-                            Thread.Sleep(actionPauseMs);
+                            Thread.Sleep(actionPauseTime);
                             Console.WriteLine("Подключаюсь к серверу...");
-                            Thread.Sleep(actionPauseMs);
+                            Thread.Sleep(actionPauseTime);
 
                             for (int i = 0; i < screenFlashCount; i++)
                             {
@@ -125,9 +118,8 @@ namespace HomeWork10
                             }
 
                             Console.WriteLine("Чисто!");
-                            Thread.Sleep(actionPauseMs);
+                            Thread.Sleep(actionPauseTime);
                             Console.WriteLine("Соединение прервано");
-                        }
                         break;
 
                     case "Exit":
