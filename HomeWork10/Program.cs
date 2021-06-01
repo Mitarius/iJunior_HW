@@ -25,6 +25,7 @@ namespace HomeWork10
             Random rand = new Random();
 
             while (userCommand != "Exit")
+            while (userCommand != "Exit")
             {
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("\n\n*********************************************************");
