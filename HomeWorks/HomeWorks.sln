@@ -19,13 +19,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork08", "..\HomeWork08
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork9", "..\HomeWork9\HomeWork9.csproj", "{9579ED23-D40F-4BE9-A13E-E443FEDA074E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork11", "..\HomeWork11\HomeWork11.csproj", "{95CCE786-CB3D-4A93-8B3E-77E1EBF80DCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork11", "..\HomeWork11\HomeWork11.csproj", "{95CCE786-CB3D-4A93-8B3E-77E1EBF80DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork13", "..\HomeWork13\HomeWork13.csproj", "{22CC567B-C4BF-4CBC-A09D-95B385CC920F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork13", "..\HomeWork13\HomeWork13.csproj", "{22CC567B-C4BF-4CBC-A09D-95B385CC920F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork12", "..\HomeWork12\HomeWork12.csproj", "{8020B6BB-85AB-4BFF-BC4F-B34AA74C2DEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork12", "..\HomeWork12\HomeWork12.csproj", "{8020B6BB-85AB-4BFF-BC4F-B34AA74C2DEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork10", "..\HomeWork10\HomeWork10.csproj", "{B6CE849B-DACF-41CB-8C49-3B7A9BB6BFE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork10", "..\HomeWork10\HomeWork10.csproj", "{B6CE849B-DACF-41CB-8C49-3B7A9BB6BFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork14", "..\HomeWork14\HomeWork14.csproj", "{0619C0FC-B464-4B41-B3E0-F0557AE4418C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{B6CE849B-DACF-41CB-8C49-3B7A9BB6BFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6CE849B-DACF-41CB-8C49-3B7A9BB6BFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6CE849B-DACF-41CB-8C49-3B7A9BB6BFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0619C0FC-B464-4B41-B3E0-F0557AE4418C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0619C0FC-B464-4B41-B3E0-F0557AE4418C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0619C0FC-B464-4B41-B3E0-F0557AE4418C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0619C0FC-B464-4B41-B3E0-F0557AE4418C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
