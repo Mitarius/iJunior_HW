@@ -10,9 +10,7 @@ namespace HomeWork16
     {
         static void Main(string[] args)
         {
-            int maxX = 0;
-            int maxY = 0;
-            int maxV = 0;
+            int maxValue = int.MinValue;
             int[,] arrayOfNumbers = new int[10, 10];
             Random rand = new Random();
 
@@ -31,23 +29,21 @@ namespace HomeWork16
             {
                 for (int j = 0; j < arrayOfNumbers.GetLength(1); j++)
                 {
-                    if (arrayOfNumbers[i, j] > maxV)
+                    if (arrayOfNumbers[i, j] > maxValue)
                     {
-                        maxV = arrayOfNumbers[i, j];
-                        maxX = i;
-                        maxY = j;
+                        maxValue = arrayOfNumbers[i, j];
                     }   
                 }
             }
 
-            Console.WriteLine($"\nLargeast value is {maxV}\n");
+            Console.WriteLine($"\nLargeast value is {maxValue}\n");
             Console.WriteLine("Largest elements:");
             
             for (int i = 0; i < arrayOfNumbers.GetLength(0); i++)
             {
                 for (int j = 0; j < arrayOfNumbers.GetLength(1); j++)
                 {
-                    if (arrayOfNumbers[i, j] == maxV)
+                    if (arrayOfNumbers[i, j] == maxValue)
                     {
                         arrayOfNumbers[i, j] = 0;
                         Console.WriteLine($"Element [{i},{j}] ");
